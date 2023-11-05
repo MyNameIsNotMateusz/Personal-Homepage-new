@@ -92,13 +92,13 @@ ul li:active a ion-icon {
 }
 
 ul li:nth-child(1).active ~ #marker::before {
-    background: #5da6ff;
-    box-shadow: 0 0 15px #5da6ff, 0 0 30px #5da6ff, 0 0 45px #5da6ff, 0 0 60px #5da6ff;
+    background: #ffffff70;
+    box-shadow: 0 0 15px #ffffff70, 0 0 30px #ffffff70, 0 0 45px #ffffff70, 0 0 60px #ffffff70;
 } 
 
 ul li:nth-child(2).active ~ #marker::before {
-    background: rgb(186, 19, 212);
-    box-shadow: 0 0 15px rgb(186, 19, 212), 0 0 30px rgb(186, 19, 212), 0 0 45px rgb(186, 19, 212), 0 0 60px rgb(186, 19, 212);
+  background: #90dfff;
+  box-shadow: 0 0 15px #90dfff, 0 0 30px #90dfff, 0 0 45px #90dfff, 0 0 60px #90dfff;
 } 
 
 ul li:nth-child(3).active ~ #marker::before {
