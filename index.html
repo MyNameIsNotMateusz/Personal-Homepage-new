@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <title>Mateusz Otorowski - Portfolio Page</title>
+
+</head>
+
+<body>
+
+    <div id="background">
+        <div class="navigation">
+            <ul>
+                <li><a><ion-icon name="accessibility-outline"></ion-icon></a></li>
+                <li><a href=""><ion-icon name="rocket-outline"></ion-icon></a></li>
+                <li><a href=""><ion-icon name="planet-outline"></ion-icon></a></li>
+                <div id="marker"></div>
+            </ul>
+        </div>
+        <div class="container">
+            <section id="profile">
+                <div class="section__pic-container">
+                    <img src="./images/Mateusz Otorowski.jpg" alt="Mateusz Otorowski profile picture" />
+                </div>
+                <div class="section__text">
+                    <p class="section__text__p1">Hello, I'm</p>
+                    <h1 class="title">Mateusz Otorowski</h1>
+                    <p class="section__text__p2">Full-Stack Developer</p>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2" onclick="window.open('./cv/Mateusz_Otorowski_CV.pdf')">
+                            Download CV
+                        </button>
+                        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                            Contact Info
+                        </button>
+                    </div>
+                    <div id="socials-container">
+                        <img src="./images/linkedin.png" alt="My LinkedIn profile" class="icon"
+                            onclick="window.open('https://www.linkedin.com/in/mateusz-otorowski-28721b278/', '_blank')" />
+
+                        <img src="./images/github.png" alt="My Github profile" class="icon"
+                            onclick="window.open('https://github.com/MyNameIsNotMateusz', '_blank')" />
+
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+    <script src="./index.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script>
+        let marker = document.querySelector("#marker");
+        let list = document.querySelectorAll("ul li");
+
+        function moveIndicator(e) {
+            marker.style.left = e.offsetLeft + 'px';
+            marker.style.width = e.offsetWidth + 'px';
+        }
+
+        list.forEach(link => {
+            link.addEventListener("mousemove", (e) => {
+                moveIndicator(e.target);
+            })
+        })
+
+        function activeLink() {
+            list.forEach((item) =>
+                item.classList.remove("active"));
+            this.classList.add("active");
+        }
+
+        list.forEach((item) =>
+            item.addEventListener("mouseover", activeLink));
+
+    </script>
+</body>
+
+</html>
