@@ -157,7 +157,7 @@ ul li:nth-child(3).active ~ #marker::before {
 }
   
 .text-container {
-    text-align: center;
+    text-align: left;
     color: #ffffffd6;
     letter-spacing: 0.7px;
     word-spacing: 1.5px;
