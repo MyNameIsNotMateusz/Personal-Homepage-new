@@ -239,7 +239,7 @@ ul li:nth-child(3).active ~ #marker::before {
     gap: 1rem;
   }
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1200px) {
     .container{
       width: 85vw;
     }
@@ -250,6 +250,10 @@ ul li:nth-child(3).active ~ #marker::before {
       justify-content: center;
       align-items: center;
       margin: 50px auto;
+    }
+
+    header h1 {
+      top: 79vh;
     }
 
     #profile .section__pic-container {
@@ -264,6 +268,18 @@ ul li:nth-child(3).active ~ #marker::before {
 
     .container {
       height: auto;
+    }
+  }
+
+  @media screen and (max-width: 568px) {
+    header h1 {
+      top: 84vh;
+    }
+  }
+
+  @media screen and (max-width: 375px) {
+    header h1 {
+      top: 87vh;
     }
   }
   
