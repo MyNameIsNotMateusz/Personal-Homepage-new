@@ -190,6 +190,10 @@ ul li:nth-child(3).active ~ #marker::before {
     height: 2rem;
   }
 
+  article div {
+    width: 100%;
+  }
+
   @media screen and (max-width: 1874px) {
     .container{
       height: auto;
