@@ -136,20 +136,22 @@ ul li:nth-child(3).active ~ #marker::before {
   .section__pic-container {
     display: flex;
     justify-content: center;
-    height: 350px;
-    width: 350px;
+    height: 293px;
     margin: auto 0;
   }
 
   #profile .section__pic-container img {
     border-radius: 50%;
     border: rgb(53, 53, 53) 0.3rem solid;
-    opacity: 0.8;
+    opacity: 0.95;
+    height: 250px;
+    width: 250px;
 }
   
   .section__text {
     align-self: center;
     text-align: center;
+    margin-left: 20px;
   }
   
   .section__text p {
@@ -169,7 +171,7 @@ ul li:nth-child(3).active ~ #marker::before {
   }
   
   .title {
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: center;
     color: #fff;
     margin-bottom: 0.5rem;
@@ -227,7 +229,8 @@ ul li:nth-child(3).active ~ #marker::before {
   }
   
   .btn-color-2 {
-    background-color: #ffffff12;
+    background-color: rgba(0, 0, 0, 0.317);
+    color: white;
   }
   
   .btn-color-2:hover {
