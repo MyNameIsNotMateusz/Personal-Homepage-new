@@ -151,7 +151,7 @@ ul li:nth-child(3).active ~ #marker::before {
     background: rgba(255, 255, 255, 0.122);
     border-radius: 2rem;
     border: rgb(53, 53, 53) 0.1rem solid;
-    border-color: rgb(163, 163, 163);
+    border-color: #7178a2;
     text-align: center;
     width: 42%;
     color: #fff;

@@ -142,7 +142,7 @@ ul li:nth-child(3).active ~ #marker::before {
   }
 
   #profile .section__pic-container img {
-    border-radius: 50% 20% / 10% 40%;
+    border-radius: 50%;
     border: rgb(53, 53, 53) 0.3rem solid;
     opacity: 0.8;
 }
@@ -150,7 +150,6 @@ ul li:nth-child(3).active ~ #marker::before {
   .section__text {
     align-self: center;
     text-align: center;
-
   }
   
   .section__text p {
