@@ -17,7 +17,7 @@ body {
 
 header h1 {
   position: fixed;
-  top: 73vh;
+  top: 72vh;
   left: 50%;
   transform: translateX(-50%);
   z-index: 2;

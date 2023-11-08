@@ -15,15 +15,23 @@ body {
 
 /*HEADER*/
 
-header h1 {
+header {
     position: fixed;
-    top: 73vh;
+    top: 72vh;
     left: 50%;
     transform: translateX(-50%);
     z-index: 2;
+    letter-spacing: 1px;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  header h1 {
+    color: #fff;
+  }
+
+  header h4 {
     color: #ffffff70;
-    letter-spacing: 5px;
-    opacity: 0.3;
   }
 
 /* BACKGROUND EFFECTS */
@@ -132,6 +140,7 @@ ul li:nth-child(3).active ~ #marker::before {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: solid;
 }
 
 .about-containers {
