@@ -109,6 +109,11 @@ ul li:nth-child(3).active ~ #marker::before {
     box-shadow: 0 0 15px #90dfff, 0 0 30px #90dfff, 0 0 45px #90dfff, 0 0 60px #90dfff;
 } 
 
+ul li:nth-child(4).active ~ #marker::before {
+  background: #90dfff;
+  box-shadow: 0 0 15px #90dfff, 0 0 30px #90dfff, 0 0 45px #90dfff, 0 0 60px #90dfff;
+} 
+
 /* CENTRAL CONTAINER */
 
 .container {
@@ -126,7 +131,8 @@ ul li:nth-child(3).active ~ #marker::before {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 50px 50px 30px 50px; 
+    padding: 50px 50px 10px 50px; 
+
 }
 
 /* PROJECTS SECTION */
@@ -143,7 +149,7 @@ ul li:nth-child(3).active ~ #marker::before {
     justify-content: center;
     margin-bottom: 10px;
     width: 85%;
-    margin-bottom: 2em;
+    margin-bottom: 1.7em;
     margin-top: 3em;
     overflow: auto;
     padding-bottom: 15px;
