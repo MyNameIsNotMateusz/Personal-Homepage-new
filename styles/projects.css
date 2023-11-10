@@ -132,7 +132,6 @@ ul li:nth-child(4).active ~ #marker::before {
     align-items: center;
     justify-content: center;
     padding: 50px 50px 10px 50px; 
-
 }
 
 /* PROJECTS SECTION */
@@ -141,7 +140,6 @@ ul li:nth-child(4).active ~ #marker::before {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
 }
 
 .projects-containers {
@@ -151,7 +149,6 @@ ul li:nth-child(4).active ~ #marker::before {
     width: 85%;
     margin-bottom: 1.7em;
     margin-top: 3em;
-    overflow: auto;
     padding-bottom: 15px;
 }
 
@@ -175,7 +172,7 @@ ul li:nth-child(4).active ~ #marker::before {
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     text-align: center;
-    width: 17rem;
+    width: 250px;
     background-color: rgb(144 223 255 / 31%);
     margin: 0 2rem;
   }
