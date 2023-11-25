@@ -16,15 +16,11 @@ body {
 /*HEADER*/
 
 header h1 {
-  position: fixed;
-  top: 72vh;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 2;
   color: #ffffff70;
   letter-spacing: 5px;
   opacity: 0.3;
 }
+
 
 /* BACKGROUND EFFECTS */
 
@@ -127,8 +123,9 @@ ul li:nth-child(4).active ~ #marker::before {
 	  -webkit-backdrop-filter: blur(11.6px);
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 20px 20px;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 20px;
     z-index: 1;
 }
 
@@ -136,6 +133,7 @@ ul li:nth-child(4).active ~ #marker::before {
 
 #profile {
     display: flex;
+    margin-top: 10%;
   }
   
   .section__pic-container {
@@ -260,7 +258,7 @@ ul li:nth-child(4).active ~ #marker::before {
     }
 
     header h1 {
-      top: 79vh;
+      margin-bottom: 10%;
     }
 
     #profile .section__pic-container {
@@ -270,25 +268,21 @@ ul li:nth-child(4).active ~ #marker::before {
     }
 
     #profile .section__pic-container img {
+      height: 100%;
       width: 100%;
-    }
+  }
+
+  .section__text {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 
     .container {
       height: auto;
     }
+
   }
 
-  @media screen and (max-width: 568px) {
-    header h1 {
-      top: 84vh;
-    }
-  }
-
-  @media screen and (max-width: 375px) {
-    header h1 {
-      top: 87vh;
-    }
-  }
   
   @media screen and (max-width: 320px) {
     .container{
