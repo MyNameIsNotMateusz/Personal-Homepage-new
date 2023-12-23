@@ -220,7 +220,7 @@ ul li:nth-child(4).active ~ #marker::before {
     }
 
     .details-container {
-        width: 90%;
+        width: 100%;
     }
     .backend {
         margin-left: 0;
