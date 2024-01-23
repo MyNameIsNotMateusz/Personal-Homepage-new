@@ -140,6 +140,7 @@ ul li:nth-child(4).active ~ #marker::before {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0;
 }
 
 .about-containers {
